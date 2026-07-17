@@ -1011,6 +1011,10 @@ footer a {
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
     }
+
+    .card:hover, .client-logo-card:hover, .case-study-card:hover, .social-link:hover {
+        transform: none !important;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1054,16 +1058,6 @@ footer a {
 
     .grid-3, .testimonials-grid, .clients-page-grid, .case-studies, .workflow-grid {
         grid-template-columns: 1fr;
-    }
-
-    .service-actions {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .service-actions a {
-        width: 100%;
-        justify-content: center;
     }
 
     .footer-grid {
