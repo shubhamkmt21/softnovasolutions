@@ -953,6 +953,22 @@ footer a {
     border-color: transparent;
 }
 
+/* Workflow grid global style */
+.workflow-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+}
+
+/* FAQ grid global style */
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 50px;
+}
+
 /* Mobile & Tablet Styles */
 @media (max-width: 991px) {
     .hero-grid {
@@ -1064,20 +1080,4 @@ footer a {
         grid-template-columns: 1fr;
         gap: 20px;
     }
-}
-
-/* Workflow grid global style */
-.workflow-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    margin-top: 50px;
-}
-
-/* FAQ grid global style */
-.faq-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    margin-top: 50px;
 }
