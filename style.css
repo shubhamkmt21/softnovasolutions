@@ -969,8 +969,13 @@ footer a {
         justify-content: center;
     }
 
-    .grid-3, .testimonials-grid {
+    .grid-3, .testimonials-grid, .workflow-grid {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
     }
 
     .feature-section {
@@ -1054,6 +1059,11 @@ footer a {
         bottom: 20px;
         right: 20px;
     }
+
+    .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }
 
 /* Workflow grid global style */
@@ -1061,5 +1071,13 @@ footer a {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
+    margin-top: 50px;
+}
+
+/* FAQ grid global style */
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
     margin-top: 50px;
 }
