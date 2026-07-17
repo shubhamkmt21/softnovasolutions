@@ -1011,10 +1011,6 @@ footer a {
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
     }
-
-    .card:hover, .client-logo-card:hover, .case-study-card:hover, .social-link:hover {
-        transform: none !important;
-    }
 }
 
 @media (max-width: 767px) {
