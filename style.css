@@ -1056,6 +1056,16 @@ footer a {
         grid-template-columns: 1fr;
     }
 
+    .service-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .service-actions a {
+        width: 100%;
+        justify-content: center;
+    }
+
     .footer-grid {
         grid-template-columns: 1fr;
     }
